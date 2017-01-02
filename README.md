@@ -2,7 +2,8 @@
 This is the config file that is consumed by ibnr's install script.
 
 ## Format
-  `nemo			    nemo			   ppa:webupd8team/nemo3		 b	0:0:0 "http://www.webupd8.org/2016/11/nemo-320-with-unity-patches-and-without.html"`
+  ### Sample Entry
+  `nemo			    nemo			   ppa:webupd8team/nemo3		 b	0:0:0 "http://www.webupd8.org/2016/11/nemo-320-with-unity-patches-and-without.html"`  
   There are 6 columns in this file. Each column *should* hold a value or have ! to indicate no value.
   1. Program Name - This is the casual program name given to identify the software.
   2. Actual Program Name - This is the program name with which it will be installed as passed to `apt`.
