@@ -25,6 +25,7 @@ This is the config file that is consumed by ibnr's install script.
   Generally, any text enclosed within double quotes are taken literally.
 
 ## Getting Started
+  * You are encouraged to customize the config file according to your needs. All entries are available to be installed when a file is checked out from the repository.
   * All column values should either have an entry or have ! as a place holder value.
   * This file contains stable version organized along the line of Ubuntu's version number (14.04, 16.04). All enabled entries in a particular version have been tested on that version of Ubuntu.
   * Any part of a line starting with a # is considered as a comment and is ignored. So, if you don't need a software to be installed, you can simply disable it by commenting it out.
