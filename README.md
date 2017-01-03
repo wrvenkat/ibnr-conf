@@ -10,8 +10,8 @@ This is the config file that is consumed by ibnr's install script.
 `tlp			    tlp				   !				         b	0:0:0 !`  
 `tlp-rdw			    tlp-rdw			   ppa:linrunner/tlp     b	0:1:0 !`  
 `#TLP - Enable the next 2 for ThinkPads`  
-`tp-smapi-dkms		    tp-smapi-dkms		   !				         b	0:1:0 !`  
-`acpi-call-dkms		    acpi-call-dkms		   !				         b	0:1:0 !`  
+`tp-smapi-dkms		    tp-smapi-dkms		   !   b	0:1:0 !`  
+`acpi-call-dkms		    acpi-call-dkms		   !   b	0:1:0 !`  
   
   There are 6 columns in this file. Each column *should* hold a value or have ! to indicate no value.
   1. Program Name - This is the casual program name given to identify the software.
@@ -29,10 +29,16 @@ This is the config file that is consumed by ibnr's install script.
 ## Getting Started
   * You are encouraged to customize the config file according to your needs. All entries are available to be installed when a file is checked out from the repository.
   * All column values should either have an entry or have ! as a place holder value.
-  * This file contains stable version organized along the line of Ubuntu's version number (14.04, 16.04). All enabled entries in a particular version have been tested on that version of Ubuntu.
+  * All enabled entries in a particular version have been tested on that version of Ubuntu.
   * Any part of a line starting with a # is considered as a comment and is ignored. So, if you don't need a software to be installed, you can simply disable it by commenting it out.
   * The install script checks whether a PPA already exists or not before adding it.
   * If you want to contribute, you can do so by contributing entries alone or if the installation requires a script, the entry and the corresponding install script. For more information on this, please see [install_scripts](https://github.com/wrvenkat/install_scripts).
+
+## Versioning ##
+  * Stable versions are organized along the lines of Ubuntu version numbers - 14.04, 16.04 etc.
+  * Master branch is the main development branch and test branch is where main testing goes on before being merged into stable versions.
+  * There are no test branches for corresponding stable branches.
+  * Branching model requires revision.
 
 ## LICENSE
 
