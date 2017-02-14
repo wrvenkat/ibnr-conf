@@ -6,14 +6,14 @@ This is the config file that is consumed by ibnr's install script.
 #### Sample Entry 1 ####
 `nemo nemo ppa:webupd8team/nemo3 b 0:0:0:0 "http://www.webupd8.org/2016/11/nemo-320-with-unity-patches-and-without.html"`  
 
-#### Sample Entries 2 ####
+#### Sample Entries 2 - with dependencies ####
 `tlp tlp ! b 0:0:0:0 !`  
 `tlp-rdw			    tlp-rdw			   ppa:linrunner/tlp     b	0:1:0:0 !`  
 `#TLP - Enable the next 2 for ThinkPads`  
 `tp-smapi-dkms		    tp-smapi-dkms		   !   b	0:1:0:0 !`  
 `acpi-call-dkms		    acpi-call-dkms		   !   b	0:1:0:0 !`  
 
-#### Sample Entry 3 ####
+#### Sample Entry 3 - a snap entry ####
 `ohmygiraffe ohmygiraffe ! g 0:0:0:1 "http://www.omgubuntu.co.uk/2017/01/oh-my-giraffe-ubuntu-snap-download"`  
   
   There are 6 columns in this file. Each column *should* hold a value or have ! to indicate no value.
