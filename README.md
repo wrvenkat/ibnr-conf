@@ -7,7 +7,7 @@ This is the config file that is consumed by ibnr's install script.
 `nemo nemo ppa:webupd8team/nemo3 b 0:0:0:0 "http://www.webupd8.org/2016/11/nemo-320-with-unity-patches-and-without.html"`  
 
 #### Sample Entry 2 ####
-`tlp`&nbsp;&nbsp;&nbsp;&nbsp;`tlp				   !				         b	0:0:0 !`  
+`tlp`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`tlp ! b 0:0:0 !`  
 `tlp-rdw			    tlp-rdw			   ppa:linrunner/tlp     b	0:1:0 !`  
 `#TLP - Enable the next 2 for ThinkPads`  
 `tp-smapi-dkms		    tp-smapi-dkms		   !   b	0:1:0 !`  
